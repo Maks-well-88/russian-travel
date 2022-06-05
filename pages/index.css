@@ -3,3 +3,6 @@
 
 /* FONTS */
 @import url('/vendor/fonts/fonts.css');
+
+/* PAGE */
+@import url('/blocks/page/page.css');
