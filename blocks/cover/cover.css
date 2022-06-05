@@ -1,0 +1,25 @@
+.cover {
+  background-image: url('/images/cover__background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1184px;
+  height: 740px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.cover::before {
+  content: '';
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
