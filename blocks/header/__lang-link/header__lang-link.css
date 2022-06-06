@@ -1,5 +1,4 @@
 .header__lang-link {
-  margin-top: 15px;
   font-size: 24px;
   line-height: 1.16;
 }
@@ -7,4 +6,12 @@
 .header__lang-link:first-of-type {
   border-bottom: 2px solid #fff;
   margin-right: 12px;
+}
+
+@media screen and (max-width: 360px) {
+  .header__lang-link {
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 1.11;
+  }
 }
