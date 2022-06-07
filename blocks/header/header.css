@@ -2,31 +2,26 @@
   max-width: 1184px;
   min-height: 52px;
   margin: 0 auto;
-  
   padding: 28px 48px 56px 48px;
-
   display: flex;
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1104px) {
+@media screen and (max-width: 1060px) {
   .header {
     padding: 28px 48px 48px 48px;
-    max-width: 928px;
   }
 }
 
-@media screen and (max-width: 848px) {
+@media screen and (max-width: 928px) {
   .header {
     padding: 28px 24px 48px 24px;
-    max-width: 720px;
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 550px) {
   .header {
     padding: 16px 16px 48px 16px;
-    width: 288px;
     min-height: 42px;
   }
 }
