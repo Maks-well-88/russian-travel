@@ -2,3 +2,15 @@
   margin: 0 0 92px 0;
   padding: 0;
 }
+
+@media screen and (max-width: 940px) {
+  .intro__list {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .intro__list {
+    margin-bottom: 64px;
+  }
+}

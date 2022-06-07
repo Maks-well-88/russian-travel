@@ -2,6 +2,32 @@
   max-width: 1184px;
   margin: 0 auto;
   display: grid;
-  grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+  grid-template: repeat(3, 1fr) / repeat(4, minmax(min-content, 1fr));
   gap: 16px;
+  padding: 0 48px 92px 48px;
+}
+
+@media screen and (max-width: 1060px) {
+  .photo-grid {
+    /* max-width: 928px; */
+    grid-template: repeat(4, 1fr) / repeat(3, minmax(min-content, 1fr));
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 928px) {
+  .photo-grid {
+    /* max-width: 720px; */
+    grid-template: repeat(6, 1fr) / repeat(2, minmax(min-content, 1fr));
+    gap: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .photo-grid {
+    grid-template-columns: minmax(min-content, max-content);
+    grid-template-rows: repeat(12, 1frx);
+  }
 }
