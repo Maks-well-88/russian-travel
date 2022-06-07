@@ -9,7 +9,6 @@
 
 @media screen and (max-width: 1060px) {
   .photo-grid {
-    /* max-width: 928px; */
     grid-template: repeat(4, 1fr) / repeat(3, minmax(min-content, 1fr));
     gap: 14px;
   }
@@ -17,7 +16,6 @@
 
 @media screen and (max-width: 928px) {
   .photo-grid {
-    /* max-width: 720px; */
     grid-template: repeat(6, 1fr) / repeat(2, minmax(min-content, 1fr));
     gap: 16px;
     padding-left: 24px;
