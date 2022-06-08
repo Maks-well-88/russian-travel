@@ -35,17 +35,18 @@
 
 /* PLACES */
 @import url('/blocks/places/places.css');
-@import url('/blocks/places/_position/places_position_top.css');
 
 /* PLACE */
 @import url('/blocks/place/place.css');
 @import url('/blocks/place/__title/place__title.css');
+@import url('/blocks/place/__title/_width/place__title_width_min.css');
 @import url('/blocks/place/__website/place__website.css');
 @import url('/blocks/place/__url-heading/place__url-heading.css');
 @import url('/blocks/place/__link/place__link.css');
 @import url('/blocks/place/__image/place__image.css');
-@import url('/blocks/place/__paragraph-block/place__paragraph-bloc.css');
+@import url('/blocks/place/__paragraph-block/place__paragraph-block.css');
 @import url('/blocks/place/__paragraph/place__paragraph.css');
+@import url('/blocks/place/__paragraph/_width/place__paragraph_width_wider.css');
 
 /* COVER */
 @import url('/blocks/cover/cover.css');

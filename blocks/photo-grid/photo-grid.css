@@ -18,8 +18,7 @@
   .photo-grid {
     grid-template: repeat(6, 1fr) / repeat(2, minmax(min-content, 1fr));
     gap: 16px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 0 24px 88px 24px;
   }
 }
 
@@ -27,5 +26,7 @@
   .photo-grid {
     grid-template-columns: minmax(min-content, max-content);
     grid-template-rows: repeat(12, 1frx);
+    padding: 0 16px 64px 16px;
+    gap: 12px;
   }
 }
