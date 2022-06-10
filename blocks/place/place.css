@@ -28,6 +28,6 @@
   .place {
     grid-template-columns: minmax(min-content, max-content);
     padding-bottom: 50px;
-    row-gap: 32px;
+    row-gap: 31px;
   }
 }
