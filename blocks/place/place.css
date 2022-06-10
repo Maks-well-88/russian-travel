@@ -2,7 +2,7 @@
   display: grid;
   grid-template: auto auto / minmax(320px, max-content) 1fr;
   gap: 48px 40px;
-  padding-bottom: 81px;
+  padding-bottom: 80px;
 }
 
 .place:last-of-type {

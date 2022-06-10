@@ -1,8 +1,7 @@
 .place__paragraph {
   margin: 0;
   font-size: 18px;
-  line-height: 1.6;
-  letter-spacing: 0.30px;
+  line-height: 1.61;
 }
 
 .place__paragraph:first-of-type {

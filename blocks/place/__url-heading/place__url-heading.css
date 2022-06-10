@@ -1,9 +1,8 @@
 .place__url-heading {
   font-size: 12px;
-  line-height: 1;
   color: #AAAAAA;
   letter-spacing: 1.5px;
-  margin-bottom: 8px;
+  margin-bottom: 11px;
 }
 
 @media screen and (max-width: 928px) {

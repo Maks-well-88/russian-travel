@@ -1,7 +1,8 @@
 .footer__copyright {
+  display: flex;
   max-width: 186px;
   font-size: 14px;
   line-height: 1.143;
-  letter-spacing: 0.4px;
   margin: 0;
+  padding: 0;
 }
