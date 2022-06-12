@@ -22,10 +22,10 @@
   left: 0;
   bottom: 0;
   right: 0;
+  transition: .3s ease-in-out;
 }
 
 .cover__link:hover::before {
-  transition: .3s ease-in-out;
   opacity: 0.8;
 }
 

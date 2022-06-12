@@ -4,11 +4,11 @@
   border-bottom: 1px solid #FFFFFF;
   font-size: 18px;
   line-height: 1.22;
+  transition: 0.2s ease;
 }
 
 .place__link:hover {
   opacity: 0.8;
-  transition: 0.2s ease;
 }
 
 @media screen and (max-width: 725px) {
