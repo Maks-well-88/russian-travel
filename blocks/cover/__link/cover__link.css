@@ -4,15 +4,12 @@
   background-image: url('../../../images/cover__background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-
   text-decoration: none;
   color: #FFFFFF;
-  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   position: relative;
 }
 
